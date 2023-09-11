@@ -4,23 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Indonesia</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat:ital,wght@0,500;1,500&family=Roboto&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat:ital,wght@0,500;1,500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <div>
-            <a href="#"><span>Explore</span><span>Indonesia</span></a>
-        </div>
-        <ul>
-          <li>destinations</li>
-          <li>experiences</li>
-          <li>about</li>
-          <li>gallery</li>
+    <header class="header">
+      <nav class="header-nav">
+        <div class="header-logo-link">
+        <a href="#"><span class="header-logo-text-n1">Explore</span><span class="header-logo-text-n2">Indonesia</span></a></div>
+        <ul class="header-list">
+          <li class="header-item">destinations</li>
+          <li class="header-item">experiences</li>
+          <li class="header-item">about</li>
+          <li class="header-item">gallery</li>
         </ul>
         <div>
           <svg
@@ -108,129 +117,180 @@
           </svg>
         </div>
       </nav>
-      <h1>explore
-        indonesia</h1>
-      <button>Start travelling</button>
-        <ul>
-          <li>
-            <h3>Title here</h3>
-            <p>Lorem ipsum dolor sit amet et amet ist ame.</p>
-          </li>
-          <li></li>
-          <h3>Title here</h3>
-          <p>Lorem ipsum dolor sit amet et amet ist ame.</p>
-          <li>
-            <h3>Title here</h3>
-            <p>Lorem ipsum dolor sit amet et amet ist ame.</p>
-          </li>
-        </ul>
-        <video src=""></video>
+      <h1 class="header-headline">explore indonesia</h1>
+      <button class="header-button">Start travelling</button>
+      <ul class="header-numbered-list">
+        <li class="header-numbered-item">
+          <h3 class="header-numbered-title">Title here</h3>
+          <p class="header-numbered-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+        </li>
+        <li>
+          <h3 class="header-numbered-title">Title here</h3>
+          <p class="header-numbered-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+        </li>
+        <li>
+          <h3 class="header-numbered-title">Title here</h3>
+          <p class="header-numbered-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+        </li>
+      </ul>
+      <video class="header-video" src=""></video>
     </header>
 
-    <section>
-      <div>
-        <div>
-          <img src="/images/Rectangle9.png" alt="#" />
-          <h3>The walkways of Indonesia spellbind</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus. </p>
-          <button>Learn More</button>
+    <section class="section-perfect-indonesia">
+      <div class="perfect-indonesia-big-box-n1">
+        <div class="perfect-indonesia-box-n1">
+          <img class="perfect-indonesia-mountaine" src="/images/Rectangle9.png" alt="#" />
+          <h3 class="perfect-indonesia-text">The walkways of Indonesia spellbind</h3>
+          <p class="perfect-indonesia-info">
+            Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce
+            commodo magna et libero mollis rhoncus.
+          </p>
+          <button class="perfect-indonesia-button">Learn More</button>
         </div>
       </div>
-      <div>
-        <div>
-          <h3>Perfect beaches exude relaxation and fun</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus. </p>
-          <button>Learn More</button>
-          <img src="./images/Rectangle10.png" alt="#" />
+      <div class="perfect-indonesia-big-box-n2">
+        <div class="perfect-indonesia-box-n1">
+          <h3 class="perfect-indonesia-text">Perfect beaches exude relaxation and fun</h3>
+          <p class="perfect-indonesia-info">
+            Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce
+            commodo magna et libero mollis rhoncus.
+          </p>
+          <button class="perfect-indonesia-button">Learn More</button>
+          <img class="perfect-indonesia-sea" src="./images/Rectangle10.png" alt="#" />
         </div>
       </div>
     </section>
-    <section>
-      <h3>Explore Our Secrets</h3>
-      <ul>
-        <li><img src="./images/Rectangle1258.png" alt="#" /></li>
-        <li><img src="./images/Rectangle1259.png" alt="#" /></li>
-        <li><img src="./images/Rectangle1260.png" alt="#" /></li>
+    <section class="section-explore-our-secrets">
+      <h3 class="explore-our-secrets-headline">Explore Our Secrets</h3>
+      <ul class="explore-our-secrets-list">
+        <li class="explore-our-secrets-item"><img class="explore-our-secrets-image" src="./images/Rectangle1258.png" alt="#" /></li>
+        <li class="explore-our-secrets-item"><img class="explore-our-secrets-image" src="./images/Rectangle1259.png" alt="#" /></li>
+        <li class="explore-our-secrets-item"><img class="explore-our-secrets-image" src="./images/Rectangle1260.png" alt="#" /></li>
       </ul>
     </section>
-    
-    <section>
-      <h3>By The Numbers</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <ul>
-        <li>
-          <h3>100+</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+
+    <section class="section-the-numbers">
+      <h3 class="the-numbers-headline">By The Numbers</h3>
+      <p class="the-numbers-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo
+        magna et libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+      <ul class="the-numbers-list">
+        <li class="the-numbers-item">
+          <p class="the-numbers-number-text">100+</p>
+          <p class="the-numbers-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            commodo magna et libero.
+          </p>
         </li>
-        <li>
-          <h3>43,000+</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo.</p>
+        <li class="the-numbers-item">
+          <p class="the-numbers-number-text">43,000+</p>
+          <p class="the-numbers-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            commodo.
+          </p>
         </li>
-        <li>
-          <h3>30+</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+        <li class="the-numbers-item">
+          <p class="the-numbers-number-text">30+</p>
+          <p class="the-numbers-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            commodo magna et libero.
+          </p>
         </li>
       </ul>
     </section>
 
-    <section>
+    <section class="">
       <h3>Our hills and valleys are like nothing you’ve seen.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna commodo, tempus dolor sit amet, laoreet elit. Donec mauris tortor.</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet
+        magna commodo, tempus dolor sit amet, laoreet elit. Donec mauris tortor.
+      </p>
       <button>Learn More</button>
     </section>
 
-    <section>
-      <h3>Live a life like you wouldn’t imagine, experience a life you wouldn’t expect.</h3>
-      <video src="#"></video>
-      <div>
-        <div>
-          <img src="./images/image3.png" alt="#" />
-          <h3>In The Country</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus.</p>
+    <section class="section-Indonesia-life">
+      <h3 class="Indonesia-life-headline">
+        Live a life like you wouldn’t imagine, experience a life you wouldn’t
+        expect.
+      </h3>
+      <video class="Indonesia-life-video" src="#"></video>
+      <div class="Indonesia-life-big-box">
+        <div class="Indonesia-life-box-n1">
+          <img class="Indonesia-life-image" src="./images/image3.png" alt="#" />
+          <h3 class="Indonesia-life-text">In The Country</h3>
+          <p class="Indonesia-life-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            dapibus mauris in lectus tempus.
+          </p>
         </div>
-        <div>
-          <img src="./images/image4.png" alt="#" />
-          <h3>In The City</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in.</p>
+        <div class="Indonesia-life-box-n2">
+          <img class="Indonesia-life-image" src="./images/image4.png" alt="#" />
+          <h3 class="Indonesia-life-text">In The City</h3>
+          <p class="Indonesia-life-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            dapibus mauris in.
+          </p>
         </div>
       </div>
     </section>
 
-    <section>
-      <h3>Photo Gallery</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt.</p>
-      <img src="./images/Image06.png" alt="#" />
-      <img src="./images/Image05.png" alt="#" />
-      <img src="./images/Image02.png" alt="#" />
-      <img src="./images/Image04.png" alt="#" />
-      <img src="./images/Image05.png" alt="#" />
-      <img src="./images/Image01.png" alt="#" />
+    <section class="section-photo-gallery">
+      <h3 class="photo-gallery-headline">Photo Gallery</h3>
+      <p class="photo-gallery-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+        dapibus mauris in lectus tempus, eget tincidunt.
+      </p>
+      <ul class="photo-gallery-list">
+        <li class="photo-gallery-item"><img src="./images/Image06.png" alt="#" /></li>
+        <li class="photo-gallery-item"><img src="./images/Image05.png" alt="#" /></li>
+        <li class="photo-gallery-item"><img src="./images/Image02.png" alt="#" /></li>
+        <li class="photo-gallery-item"><img src="./images/Image04.png" alt="#" /></li>
+        <li class="photo-gallery-item"><img src="./images/Image05.png" alt="#" /></li>
+        <li class="photo-gallery-item"><img src="./images/Image01.png" alt="#" /></li>
+      </ul>
     </section>
 
-    <section>
-      <h3>Getting there</h3>
-      <ul>
-        <li>
-          <h3>Bookings your flights</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim.</p>
+    <section class="section-getting-there">
+      <h3 class="getting-there-headline">Getting there</h3>
+      <ul class="getting-there-list">
+        <li class="getting-there-item">
+          <h3 class="getting-there-text">Bookings your flights</h3>
+          <p class="getting-there-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed
+            euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt,
+            viverra neque auctor, lobortis enim.
+          </p>
         </li>
-        <li>
-          <h3>Choosing your hotel</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim.</p>
-          <div>
-            <video src="#"></video>
-            <h3>Travelling there</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt.</p>
+        <li class="getting-there-item">
+          <h3 class="getting-there-text">Choosing your hotel</h3>
+          <p class="getting-there-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed
+            euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt,
+            viverra neque auctor, lobortis enim.
+          </p>
+          <div class="getting-there-additional-box">
+            <video class="getting-there-additional-video" src="#"></video>
+            <h3 class="getting-there-additional-text">Travelling there</h3>
+            <p class="getting-there-additional-info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              dapibus mauris in lectus tempus, eget tincidunt.
+            </p>
           </div>
         </li>
-        <li>
-          <h3>Planning your experiences</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. </p>
-          <button>Learn More</button>
+        <li class="getting-there-item">
+          <h3 class="getting-there-text">Planning your experiences</h3>
+          <p class="getting-there-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            dapibus mauris in lectus tempus, eget tincidunt lacus varius.
+          </p>
+          <button class="getting-there-button">Learn More</button>
         </li>
       </ul>
     </section>
-    <footer>
+    <footer class="footer">
       <div>
         <a href="#"><span>Explore</span><span>Indonesia</span></a>
       </div>
