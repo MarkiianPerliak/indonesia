@@ -1,0 +1,53 @@
+body {
+    font-family: DM Sans;
+}
+
+/* .container {
+    width: 1532px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+:root {
+    --accent-color: #FFFFFF ;
+    --title-color: #FFFFFF ;
+    --text-color: #6F7787 ;
+    --background-color: #DD2242 ;
+}
+
+.header {
+background-image: url(./images/diego-gutierrez-NRn5rrBnH8w-unsplash.png);
+}
+
+.header-logo-link {
+    width: 128.067px;
+height: 56.749px;
+flex-shrink: 0;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Roboto;
+font-size: 23.961px;
+font-weight: 900;
+line-height: 80.5%; /* 19.288px */
+letter-spacing: 0.315px;
+text-transform: uppercase;
+}
+
+.header-logo-text-n1 {
+    color: var(--accent-color);
+}
+
+.header-logo-text-n2 {
+    opacity: 0.7;
+background: linear-gradient(180deg, rgba(1, 132, 149, 0.00) 7.41%, #018394 83.33%);
+}
+
+.header-list {
+color: var(--accent-color);
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
