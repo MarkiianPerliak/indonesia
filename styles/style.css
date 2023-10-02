@@ -2,13 +2,14 @@ body {
     font-family: DM Sans;
 }
 
-/* .container {
-    width: 1532px;
+.container {
+    width: 1670px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-} */
+    outline: red solid;
+}
 
 :root {
     --accent-color: #000 ;
