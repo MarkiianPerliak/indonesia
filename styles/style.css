@@ -50,9 +50,10 @@ font-size: 18px;
 font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
+display: flex;
 }
 
-.header-headline {
+.hero-headline {
 color: var(--title-color);
 
 /* H1 */
@@ -62,6 +63,31 @@ font-style: normal;
 font-weight: 900;
 line-height: 130px; /* 108.333% */
 text-transform: uppercase;
+}
+
+.hero-numbered-list {
+display: flex;
+}
+
+.hero-numbered-list {
+display: flex;
+}
+
+.explore-our-secrets-list {
+    display: flex;
+}
+
+.the-numbers-list {
+    display: flex;
+}
+
+
+.footer-nav-list {
+    display: flex;
+}
+
+.footer-svg-list {
+    display: flex;
 }
 
 .footer-logo-link {
